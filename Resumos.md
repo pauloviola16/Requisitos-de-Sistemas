@@ -24,3 +24,24 @@
 ## 5. Normas ISO
 - **ISO 9000:** fundamentos e conceitos de gestão da qualidade.
 - **ISO 9001:** requisitos para sistemas de gestão da qualidade.
+
+
+# Aula 2 — Níveis de Requisitos
+
+## 1. Requisitos de Usuário
+- Descrevem **o que o sistema deve fazer**, sem explicar como será implementado.
+- Utilizam linguagem simples, acessível a clientes e usuários.
+- Não envolvem detalhes técnicos ou tecnologias.
+
+**Exemplo:** O sistema deve permitir que o cliente realize pagamentos.
+
+## 2. Requisitos de Sistema
+- Descrevem os requisitos de forma mais detalhada e técnica.
+- São voltados principalmente para desenvolvedores e profissionais de TI.
+- Especificam comportamentos, regras e condições necessárias para o funcionamento do sistema.
+
+**Exemplo:** O sistema deve validar os dados do pagamento e registrar a transação no banco de dados.
+
+## 3. Diferença Principal
+- **Requisito de Usuário:** visão geral, linguagem simples, foco nas necessidades.
+- **Requisito de Sistema:** visão detalhada, linguagem técnica, foco nas especificações.
