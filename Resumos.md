@@ -29,7 +29,6 @@
 <br>
 <br>
 <br>
-<br>
 
 
 # Aula 2 — Níveis de Requisitos
@@ -51,3 +50,39 @@
 ## 3. Diferença Principal
 - **Requisito de Usuário:** visão geral, linguagem simples, foco nas necessidades.
 - **Requisito de Sistema:** visão detalhada, linguagem técnica, foco nas especificações.
+
+<br>
+<br>
+<br>
+
+  # Aula 3 – Requisitos de Sistemas
+
+## Tipos de Requisitos
+
+- **Requisitos Funcionais (RF):** definem O QUE o sistema deve fazer. Ex.: cadastrar usuários, consultar saldo e emitir relatórios.
+- **Requisitos Não Funcionais (RNF):** definem COMO o sistema deve funcionar. Ex.: desempenho, segurança e acessibilidade.
+- **Regras de Negócio (RN):** condições e restrições que o sistema deve respeitar. Ex.: impedir saques acima do saldo disponível.
+
+## Características dos Requisitos Não Funcionais
+
+- **Usabilidade:** facilidade de uso.
+- **Confiabilidade:** estabilidade e recuperação de falhas.
+- **Eficiência:** velocidade e desempenho.
+- **Segurança:** proteção dos dados.
+- **Manutenibilidade:** facilidade de manutenção e atualização.
+- **Portabilidade:** funcionamento em diferentes ambientes.
+
+## Exemplo Prático
+
+Sistema bancário:
+- **RF:** permitir consultar o saldo.
+- **RNF:** exibir o saldo em até 3 segundos.
+- **RN:** não permitir saques superiores ao saldo.
+
+## Resumo para a Prova
+
+- **RF = O QUE o sistema faz.**
+- **RNF = COMO o sistema funciona.**
+- **RN = REGRAS que devem ser respeitadas.**
+- Requisitos devem ser **claros, completos, consistentes e verificáveis**.
+- Requisitos não funcionais devem possuir **métricas mensuráveis**, como tempo de resposta.
