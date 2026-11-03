@@ -86,3 +86,48 @@ Sistema bancário:
 - **RN = REGRAS que devem ser respeitadas.**
 - Requisitos devem ser **claros, completos, consistentes e verificáveis**.
 - Requisitos não funcionais devem possuir **métricas mensuráveis**, como tempo de resposta.
+
+  <br>
+<br>
+<br>
+
+# Aula 4 – Identificação de Stakeholders
+
+## 1. O que são Stakeholders?
+
+São todas as pessoas, grupos ou entidades que possuem interesse ou são afetados direta ou indiretamente por um sistema.
+
+### Exemplos:
+- **Gerente de Projeto:** organiza e supervisiona o projeto.
+- **Analista de Sistemas:** identifica e analisa os requisitos.
+- **Programador:** desenvolve o software.
+- **Patrocinador:** financia o projeto.
+- **Cliente/Usuário:** solicita ou utiliza o sistema.
+
+**Importante:** identificar incorretamente os stakeholders pode gerar requisitos incompletos, retrabalho e prejuízos.
+
+## 2. Levantamento de Requisitos
+
+Processo de identificar as necessidades dos usuários e definir o que o sistema deve fazer.
+
+### Principais Técnicas
+
+- **Etnografia:** observação do ambiente e da rotina dos usuários.
+- **Entrevistas:** conversas para identificar necessidades e expectativas.
+- **Questionários:** coleta de informações de vários usuários, especialmente em locais diferentes.
+- **Brainstorming:** geração coletiva de ideias.
+- **Prototipagem:** criação de versões simplificadas do sistema para validar requisitos.
+- **JAD (Joint Application Design):** reuniões estruturadas entre usuários e desenvolvedores para definir requisitos em conjunto.
+- **Workshops:** encontros colaborativos para discutir necessidades do sistema.
+
+## 3. Pontos Importantes para a Prova
+
+- **Stakeholder:** qualquer interessado ou afetado pelo sistema.
+- **Levantamento de requisitos:** deve acontecer antes da programação.
+- **Entrevista:** ideal para obter informações diretamente dos usuários.
+- **Questionário:** útil quando existem muitos usuários.
+- **Etnografia:** baseada na observação.
+- **Brainstorming:** geração de ideias.
+- **Prototipagem:** ajuda a identificar erros e reduzir riscos.
+- **JAD:** colaboração entre usuários e desenvolvedores.
+- Requisitos devem ser **claros, consistentes e revisados** para evitar falhas no projeto.
