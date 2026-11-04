@@ -131,3 +131,55 @@ Processo de identificar as necessidades dos usuários e definir o que o sistema 
 - **Prototipagem:** ajuda a identificar erros e reduzir riscos.
 - **JAD:** colaboração entre usuários e desenvolvedores.
 - Requisitos devem ser **claros, consistentes e revisados** para evitar falhas no projeto.
+
+
+
+<br>
+<br>
+<br>
+
+# Aula 5 – Documentação de Requisitos de Software
+
+## 1. O que é o Documento de Requisitos (SRS)?
+
+- **SRS (Software Requirements Specification):** documento oficial que descreve o que o sistema deve implementar.
+- Registra os requisitos levantados e orienta o desenvolvimento.
+- Serve como referência para desenvolvedores, clientes, testadores e manutenção.
+- Ajuda a evitar erros, retrabalho e falhas de comunicação.
+
+## 2. Objetivo e Importância
+
+- Definir claramente o que será desenvolvido.
+- Garantir que o software atenda às necessidades do cliente.
+- Facilitar a comunicação entre os envolvidos.
+- Apoiar o desenvolvimento, os testes e futuras manutenções.
+
+**Importante:** o documento deve ser claro, organizado, compreensível e adequado ao público.
+
+## 3. Quem Utiliza o Documento?
+
+- **Clientes:** verificam se os requisitos atendem às necessidades.
+- **Gerentes:** planejam o projeto e seu desenvolvimento.
+- **Engenheiros de Sistemas:** compreendem o funcionamento esperado.
+- **Engenheiros de Testes:** elaboram testes de validação.
+- **Engenheiros de Manutenção:** entendem o sistema para realizar alterações.
+
+## 4. Estrutura do Documento de Requisitos
+
+- **Prefácio:** público-alvo e histórico de versões.
+- **Introdução:** objetivos, necessidades e funções do sistema.
+- **Glossário:** explicação dos termos técnicos.
+- **Requisitos de Usuário:** serviços oferecidos e requisitos não funcionais.
+- **Modelos do Sistema:** diagramas e relacionamentos entre componentes.
+- **Evolução do Sistema:** possíveis mudanças e melhorias futuras.
+- **Apêndices:** informações adicionais, como hardware e banco de dados.
+- **Índice:** facilita a localização das informações.
+
+## 5. Resumo para a Prova
+
+- **SRS = Documento oficial de especificação dos requisitos.**
+- Define o que deve ser implementado no software.
+- Deve ser **claro, organizado, preciso e compreensível**.
+- É utilizado por clientes, gerentes, desenvolvedores, testadores e manutenção.
+- Serve como referência durante o desenvolvimento e após a entrega.
+- Sua estrutura **não é fixa**, podendo ser adaptada conforme o projeto.
