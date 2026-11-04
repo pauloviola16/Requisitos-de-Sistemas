@@ -236,3 +236,62 @@ Processo de identificar as necessidades dos usuários e definir o que o sistema 
 - O processo de engenharia de requisitos é **iterativo**, permitindo revisões.
 - O relatório de viabilidade orienta a decisão de continuar ou não o projeto.
 
+- 
+<br>
+<br>
+<br>
+
+# Aula 7 – Elicitação de Requisitos
+
+## 1. O que é Elicitação de Requisitos?
+
+- Processo de descobrir e compreender as reais necessidades dos usuários e stakeholders.
+- Busca identificar requisitos explícitos e necessidades que o cliente ainda não conseguiu expressar.
+- Seu objetivo é entender **O QUE o cliente realmente precisa**.
+- É mais abrangente que o simples levantamento de requisitos.
+
+## 2. Etapas da Elicitação
+
+1. **Preparação:** planejar as atividades e identificar os envolvidos.
+2. **Condução:** coletar informações e descobrir necessidades.
+3. **Documentação:** registrar os requisitos identificados.
+4. **Confirmação:** validar as informações com os stakeholders.
+
+**Importante:** a elicitação é um processo iterativo, podendo ocorrer novamente durante o projeto.
+
+## 3. Técnicas de Elicitação
+
+- **Entrevistas:** conversas diretas com usuários.
+- **Questionários:** coleta de informações de várias pessoas.
+- **Observação/Etnografia:** acompanhar a rotina dos usuários.
+- **Brainstorming:** geração coletiva de ideias.
+- **Prototipagem:** criar modelos para esclarecer necessidades.
+- **Workshops:** reuniões colaborativas.
+- **Análise Documental:** estudar documentos e processos existentes.
+
+## 4. Principais Problemas da Elicitação
+
+- **Problemas de Escopo:** dificuldade em definir os limites e funcionalidades do sistema.
+- **Problemas de Compreensão:** informações incompletas, dúvidas ou falhas de comunicação.
+- **Problemas de Volatilidade:** requisitos que mudam constantemente.
+
+## 5. Resultados da Elicitação
+
+- Identificação das necessidades e objetivos do negócio.
+- Definição do escopo do sistema.
+- Lista de requisitos e regras de negócio.
+- Identificação dos stakeholders envolvidos.
+- Criação de cenários de uso e possíveis modelos do sistema.
+- Revisão e confirmação das informações coletadas.
+
+## 6. Resumo para a Prova
+
+- **Elicitação = descobrir as necessidades reais do cliente.**
+- É mais abrangente que apenas perguntar o que o cliente deseja.
+- Envolve **preparação, condução, documentação e confirmação**.
+- Utiliza técnicas como entrevistas, observação e prototipagem.
+- Principais problemas: **escopo, compreensão e volatilidade**.
+- É um processo **iterativo**, pois os requisitos podem mudar.
+- Requisitos mal identificados geram retrabalho, custos e falhas no software.
+
+
