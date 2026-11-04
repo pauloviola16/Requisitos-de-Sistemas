@@ -293,5 +293,181 @@ Processo de identificar as necessidades dos usuários e definir o que o sistema 
 - Principais problemas: **escopo, compreensão e volatilidade**.
 - É um processo **iterativo**, pois os requisitos podem mudar.
 - Requisitos mal identificados geram retrabalho, custos e falhas no software.
+- 
+<br>
+<br>
+<br>
+
+# Aula 8 – Validação de Requisitos
+
+## 1. O que é Validação de Requisitos?
+
+- Processo que verifica se os requisitos identificados realmente atendem às necessidades do cliente.
+- Busca encontrar erros, inconsistências e informações incompletas antes do desenvolvimento.
+- Garante que os requisitos estejam claros, corretos e bem definidos.
+- Corrigir erros nessa etapa é mais barato do que após a implementação.
+
+## 2. O que é Verificado na Validação?
+
+- **Completude:** todos os requisitos necessários foram identificados?
+- **Consistência:** existem requisitos contraditórios?
+- **Clareza:** os requisitos estão livres de ambiguidades?
+- **Viabilidade:** os requisitos são realistas e possíveis de implementar?
+- **Conformidade:** seguem os padrões e normas de qualidade?
+- **Testabilidade:** é possível verificar se cada requisito foi atendido?
+
+## 3. Principais Técnicas de Validação
+
+### Revisão de Requisitos
+- Análise sistemática dos requisitos para identificar erros e inconsistências.
+- Envolve representantes do cliente e da equipe de desenvolvimento.
+- Utiliza reuniões, documentos e checklists.
+
+### Prototipagem
+- Criação de modelos do sistema para demonstrar seu funcionamento.
+- Permite que usuários identifiquem problemas antes da implementação.
+- Facilita a compreensão e a validação dos requisitos.
+
+### Testes de Requisitos
+- Verificam se os requisitos podem ser testados no sistema final.
+- Cada requisito funcional deve permitir a definição de um ou mais testes.
+- Requisitos difíceis ou impossíveis de testar devem ser revisados.
+
+## 4. Entradas e Saídas da Validação
+
+- **Entradas:** requisitos levantados, normas de qualidade e experiências anteriores.
+- **Processamento:** análise e validação dos requisitos.
+- **Saídas:** lista de problemas identificados e ações para correção.
+
+## 5. Resumo para a Prova
+
+- **Validação = verificar se os requisitos estão corretos e atendem ao cliente.**
+- Identifica erros antes que cheguem ao desenvolvimento.
+- Principais técnicas: **revisão, prototipagem e testes de requisitos**.
+- Requisitos devem ser **claros, completos, consistentes, viáveis e testáveis**.
+- A prototipagem facilita a identificação visual de problemas.
+- Quanto mais tarde um erro for identificado, **maior será o custo de correção**.
+- A validação reduz retrabalho, custos e riscos no projeto.
+
+
+<br>
+<br>
+<br>
+
+# Aula 9 – Gerenciamento de Requisitos
+
+## 1. O que é Gerenciamento de Requisitos?
+
+- Processo responsável por acompanhar, controlar e documentar mudanças nos requisitos de um software.
+- Garante que alterações sejam avaliadas antes de serem implementadas.
+- Evita inconsistências, retrabalho e problemas no desenvolvimento.
+- **Importante:** os requisitos podem mudar durante todo o ciclo de vida do sistema.
+
+## 2. Por que os Requisitos Mudam?
+
+- Novas necessidades identificadas pelos usuários.
+- Mudanças nos objetivos e prioridades da empresa.
+- Novas tecnologias, equipamentos ou integrações.
+- Alterações em leis e regulamentações.
+- Melhor compreensão das necessidades do sistema.
+
+## 3. Conceitos Importantes
+
+- **Baseline (Linha de Base):** versão de referência dos requisitos em determinado momento.
+- **Rastreabilidade:** permite identificar relações e dependências entre requisitos.
+- **Controle de Mudanças:** registra e acompanha alterações realizadas nos requisitos.
+- **Identificação Única:** cada requisito possui um identificador exclusivo, mantido para fins de histórico.
+
+## 4. Etapas do Gerenciamento de Mudanças
+
+1. **Análise do Problema:** identificar e avaliar a solicitação de mudança.
+2. **Análise da Mudança:** verificar impactos, custos e decidir se a alteração será aprovada.
+3. **Implementação:** atualizar os requisitos e, quando necessário, modificar o sistema.
+
+**Importante:** uma mudança em um requisito pode afetar vários outros requisitos.
+
+## 5. Planejamento e Ferramentas
+
+- Definir como os requisitos serão identificados e controlados.
+- Estabelecer políticas de rastreabilidade e gerenciamento de mudanças.
+- Utilizar ferramentas para armazenar requisitos e acompanhar alterações.
+- Podem ser utilizadas planilhas, bancos de dados ou sistemas especializados.
+
+## 6. Resumo para a Prova
+
+- **Gerenciamento = controlar mudanças nos requisitos.**
+- **Baseline = versão de referência dos requisitos.**
+- **Rastreabilidade = identificar relações e impactos entre requisitos.**
+- Toda mudança deve ser **analisada, aprovada e documentada**.
+- O custo e os benefícios devem ser considerados antes de aprovar alterações.
+- O documento de requisitos deve permanecer atualizado.
+- Mudanças sem controle podem gerar inconsistências, custos e retrabalho.
+
+
+<br>
+<br>
+<br>
+
+# Aula 10 – Casos de Uso
+
+## 1. O que são Casos de Uso?
+
+- Representam as funcionalidades de um sistema do ponto de vista do usuário.
+- Facilitam a comunicação entre clientes, analistas e desenvolvedores.
+- Ajudam a identificar e compreender os requisitos do software.
+- São independentes da linguagem de programação e das tecnologias utilizadas.
+
+## 2. Elementos do Diagrama de Casos de Uso
+
+- **Atores:** pessoas ou outros sistemas que interagem com o software.
+- **Casos de Uso:** funcionalidades ou ações oferecidas pelo sistema.
+- **Relacionamentos:** representam as interações e dependências entre os elementos.
+
+### Representação Gráfica
+
+- **Boneco:** representa um ator.
+- **Elipse:** representa um caso de uso.
+- **Linha:** representa a associação entre ator e caso de uso.
+- **Retângulo:** representa os limites do sistema.
+
+## 3. Relacionamentos entre Casos de Uso
+
+- **Include (<<include>>):** inclusão obrigatória de outro caso de uso.
+- **Extend (<<extend>>):** comportamento adicional ou opcional, executado sob determinadas condições.
+- **Generalização:** permite que um ator herde funcionalidades de outro ator.
+
+### Exemplo
+
+- **Include:** processar pedido inclui obrigatoriamente validar pagamento.
+- **Extend:** realizar compra pode incluir opcionalmente aplicar cupom.
+- **Generalização:** cliente herda a funcionalidade de login do ator usuário.
+
+## 4. O que é UML?
+
+- **UML (Unified Modeling Language):** linguagem padronizada para modelagem de sistemas.
+- Utiliza diagramas para representar a estrutura e o comportamento do software.
+- Facilita a compreensão e a comunicação durante o desenvolvimento.
+- Foi padronizada pela OMG (Object Management Group).
+
+### Principais Diagramas UML
+
+- **Caso de Uso:** funcionalidades vistas pelo usuário.
+- **Classes:** classes e seus relacionamentos.
+- **Sequência:** ordem das interações entre objetos.
+- **Atividades:** fluxo de atividades e processos.
+- **Estados:** estados e transições de um objeto.
+- **Componentes:** organização dos componentes do sistema.
+
+## 5. Resumo para a Prova
+
+- **Caso de Uso = funcionalidade do sistema na visão do usuário.**
+- **Ator = pessoa ou sistema que interage com o software.**
+- **Include = comportamento obrigatório.**
+- **Extend = comportamento opcional ou condicional.**
+- **Generalização = herança de funcionalidades.**
+- **UML = linguagem padronizada para modelagem de sistemas.**
+- Diagramas de casos de uso facilitam a comunicação e a identificação de requisitos.
+- Os casos de uso representam **O QUE o sistema faz**, não como será programado.
+
 
 
