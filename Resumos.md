@@ -183,3 +183,56 @@ Processo de identificar as necessidades dos usuários e definir o que o sistema 
 - É utilizado por clientes, gerentes, desenvolvedores, testadores e manutenção.
 - Serve como referência durante o desenvolvimento e após a entrega.
 - Sua estrutura **não é fixa**, podendo ser adaptada conforme o projeto.
+
+- 
+<br>
+<br>
+<br>
+
+# Aula 6 – Engenharia de Requisitos e Estudos de Viabilidade
+
+## 1. Engenharia de Requisitos
+
+- Processo responsável por identificar, analisar, definir e documentar os requisitos de um software.
+- Seu objetivo é garantir que o sistema atenda às necessidades dos usuários.
+- Foca principalmente em **O QUE o sistema deve fazer**, e não em como será programado.
+- Ajuda a evitar erros, retrabalho e desenvolvimento de funcionalidades desnecessárias.
+
+## 2. Etapas da Engenharia de Requisitos
+
+1. **Estudo de Viabilidade:** verifica se o projeto pode e vale a pena ser desenvolvido.
+2. **Análise de Requisitos:** identifica as necessidades dos stakeholders.
+3. **Definição de Requisitos:** determina quais requisitos serão implementados.
+4. **Especificação de Requisitos:** documenta detalhadamente os requisitos definidos.
+
+**Importante:** o processo é iterativo, permitindo retornar às etapas anteriores para corrigir erros ou ajustar requisitos.
+
+## 3. Estudo de Viabilidade
+
+- Avalia se o projeto é possível e se traz benefícios para a organização.
+- É realizado antes do desenvolvimento do software.
+- Pode resultar na aprovação, alteração ou cancelamento do projeto.
+
+### Principais Tipos de Viabilidade
+
+- **Técnica:** existem tecnologias e recursos para desenvolver o sistema?
+- **Econômica:** os custos são justificáveis pelos benefícios?
+- **Operacional/Organizacional:** o sistema atende aos objetivos da empresa?
+- **Temporal:** é possível concluir o projeto dentro do prazo?
+
+## 4. Stakeholders e Relatório de Viabilidade
+
+- Os stakeholders fornecem informações sobre necessidades, custos, recursos e limitações.
+- O estudo gera um **relatório de viabilidade**, apresentando conclusões e justificativas.
+- Esse relatório ajuda a decidir se o projeto deve continuar.
+
+## 5. Resumo para a Prova
+
+- **Engenharia de Requisitos = identificar, analisar, definir e documentar necessidades.**
+- **Estudo de Viabilidade = verificar se o projeto é possível e vantajoso.**
+- A viabilidade deve ser analisada **antes da programação**.
+- Um projeto pode ser cancelado ainda na fase de viabilidade.
+- O sistema deve contribuir para os **objetivos da organização**.
+- O processo de engenharia de requisitos é **iterativo**, permitindo revisões.
+- O relatório de viabilidade orienta a decisão de continuar ou não o projeto.
+
